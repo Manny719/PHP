@@ -20,8 +20,6 @@ if ($conn->connect_error) {
   <h2>Performance Averages</h2>
 
   <?php
-  // Once you’ve verified the debug output, delete or comment out the entire DEBUG BLOCK above,
-  // then this section will run your original average‐query:
 
   $sql_avg    = "SELECT performance_id, AVG(score) AS avg_score
                  FROM scores
